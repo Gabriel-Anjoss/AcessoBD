@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alterar Livro</title>
+    <title>Alterar Autores</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <style>
         body {
@@ -39,12 +39,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Alteração de Livros Cadastrados</h1>
-        <form name="alterar" method="POST" action="alt_livro2.php">
+        <h1>Alteração de Autores Cadastrados</h1>
+        <form name="alterar" method="POST" action="alt_autor2.php">
             <fieldset class="border p-3">
-            <label for="autor">Informe o ID do Livro que deseja alterar:</label>
+            <label for="autor">Informe o Codigo do Autor que deseja alterar:</label>
             <div class="form-group">
-                    <input name="txtID" type="text" class="form-control" id="txtID" placeholder="Id do Livro    " required>
+                    <input name="txtID" type="text" class="form-control" id="txtID" placeholder="Codigo do Autor" required>
                 </div>
                 <div class="text-center">
                     <button name="btnenviar" type="submit" class="btn btn-primary btn-custom">Consultar</button>
@@ -52,7 +52,7 @@
                 </div>
             </fieldset>
         </form>
-        <a href="index.html" class="btn btn-danger btn-voltar">Voltar</a>
+        <a href="alterar.html" class="btn btn-danger btn-voltar">Voltar</a>
     </div>
 </body>
 </html>

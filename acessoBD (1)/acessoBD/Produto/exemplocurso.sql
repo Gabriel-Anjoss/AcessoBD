@@ -46,6 +46,21 @@ INSERT INTO `produto` (`id`, `nome`, `estoque`) VALUES
 (6, 'Smartphone', 20),
 (7, 'Mouse', 70);
 
+ CREATE TABLE `usuario` (
+    `Login` varchar(5) NOT NULL,
+    `Senha` int(11) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+--
+-- Estrutura dos dados da  Tabela Usuário
+--
+
+ INSERT INTO `usuario` (`Login` , `Senha`) VALUES
+    ('a',123),
+    ('b',456);
+
+
 --
 -- Índices para tabelas despejadas
 --

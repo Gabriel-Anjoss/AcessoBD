@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alterar Autores</title>
+    <title>Alterar Autoria</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <style>
         body {
@@ -39,20 +39,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>Alteração de Autores Cadastrados</h1>
-        <form name="alterar" method="POST" action="alt_autor2.php">
+        <h1>Alteração de Autoria Cadastrados</h1>
+        <form name="alterar" method="POST" action="alt_autoria2.php">
             <fieldset class="border p-3">
-            <label for="autor">Informe o Codigo do Autor que deseja alterar:</label>
+            <label for="autor">Informe o ID do Livro e Autor da Autoria que deseja alterar:</label>
             <div class="form-group">
-                    <input name="txtID" type="text" class="form-control" id="txtID" placeholder="Codigo do Autor" required>
+                    <input name="txtautor" type="text" class="form-control" placeholder="Id do Autor " required><br>
+                    <input name="txtlivro" type="text" class="form-control" placeholder="Id do Livro " required>
                 </div>
+                
                 <div class="text-center">
                     <button name="btnenviar" type="submit" class="btn btn-primary btn-custom">Consultar</button>
                     <button name="limpar" type="reset" class="btn btn-secondary btn-custom">Limpar</button>
                 </div>
             </fieldset>
         </form>
-        <a href="index.html" class="btn btn-danger btn-voltar">Voltar</a>
+        <a href="alterar.html" class="btn btn-danger btn-voltar">Voltar</a>
     </div>
 </body>
 </html>

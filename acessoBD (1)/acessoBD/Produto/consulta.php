@@ -94,7 +94,7 @@ if (isset($_POST['btnConsultar'])) {
 ?>
 
 </div>
-        <button class="btn btn-voltar"><a href="index.html">Voltar</a></button>
+        <button class="btn btn-voltar"><a href="menu.html">Voltar</a></button>
     </div>
 </body>
 </html>

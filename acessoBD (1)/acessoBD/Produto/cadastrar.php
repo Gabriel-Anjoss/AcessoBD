@@ -74,7 +74,7 @@
             </div>
             <div class="btn-group">
                 <button type="submit" class="btn btn-cadastrar" name="btnenviar">Cadastrar</button>
-                <a href="index.html" class="btn btn-voltar">Voltar</a>
+                <a href="menu.html" class="btn btn-voltar">Voltar</a>
             </div>
         </form>
 

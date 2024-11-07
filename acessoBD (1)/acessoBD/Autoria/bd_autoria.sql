@@ -103,6 +103,22 @@ INSERT INTO `livro` (`Cod_livro`, `Titulo`, `Categoria`, `ISBN`, `Idioma`, `QtdP
 (4, 'Júpiter Negro', 'Distopia', '2147483647', 'Inglês', 328),
 (5, 'Urano Prateado', 'Ficção Científica', '2147483647', 'Português', 208);
 
+
+ CREATE TABLE `usuario` (
+    `Login` varchar(5) NOT NULL,
+    `Senha` int(11) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+--
+-- Estrutura dos dados da  Tabela Usuário
+--
+
+ INSERT INTO `usuario` (`Login` , `Senha`) VALUES
+    ('a',123),
+    ('b',456);
+
+
 --
 -- Índices para tabelas despejadas
 --
